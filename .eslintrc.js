@@ -10,7 +10,7 @@ module.exports = {
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly",
-				"module": true,
+				"module": true
     },
     "parserOptions": {
         "ecmaVersion": 2018,
@@ -20,5 +20,6 @@ module.exports = {
         "vue"
     ],
     "rules": {
+			"no-undef": "off"
     }
 };

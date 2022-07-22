@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "es6",
+		"lib": ["esnext", "dom"],
+		"sourceMap": true,
+		"jsx": "react",
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"experimentalDecorators":true,
+		"emitDecoratorMetadata": true,
+		"moduleResolution": "node",
+		"baseUrl": "./",
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	}
+}
