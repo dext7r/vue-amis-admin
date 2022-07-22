@@ -1,0 +1,52 @@
+{
+	"name": "vue-amis-admin",
+	"author": "h7ml <h7ml@qq.com>",
+	"private": true,
+	"version": "0.0.0",
+	"type": "commonjs",
+	"keywords": [
+		"amis",
+		"vue-amis-admin",
+		"vue-amis-admin"
+	],
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "husky install",
+		"lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix"
+	},
+	"dependencies": {
+		"vue": "^3.2.37"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^3.0.0",
+		"cz-conventional-changelog": "^3.3.0",
+		"cz-customizable": "6.9.0",
+		"eslint": "^8.20.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-vue": "^9.2.0",
+		"husky": "^8.0.1",
+		"lint-staged": "13.0.3",
+		"prettier": "2.7.1",
+		"vite": "^3.0.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "node_modules/cz-customizable"
+		}
+	},
+	"husky": {
+		"hooks": {
+			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+		}
+	},
+	"gitHooks": {
+		"pre-commit": "lint-staged"
+	},
+	"lint-staged": {
+		"*.{js,jsx,vue}": [
+			"vue-cli-service lint"
+		]
+	}
+}
