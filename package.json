@@ -27,7 +27,7 @@
 		"ant-design-vue": "^3.2.10",
 		"axios": "^0.27.2",
 		"bootstrap": "^5.2.0",
-		"copy-to-clipboard": "^3.3.1",
+		"copy-to-clipboard": "^3.3.3",
 		"core-js": "^3.23.5",
 		"http-proxy-middleware": "^2.0.6",
 		"lodash": "^4.17.21",
