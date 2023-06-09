@@ -18,7 +18,7 @@
 	},
 	"dependencies": {
 		"@ant-design/icons-vue": "^6.1.0",
-		"@fortawesome/fontawesome-free": "^6.1.1",
+		"@fortawesome/fontawesome-free": "^6.4.0",
 		"amis": "^2.0.2",
 		"amis-core": "^2.0.2",
 		"amis-editor": "^5.2.0",
