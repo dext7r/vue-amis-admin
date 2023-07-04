@@ -22,7 +22,7 @@
 		"amis": "^2.0.2",
 		"amis-core": "^2.0.2",
 		"amis-editor": "^5.2.0",
-		"amis-formula": "^2.0.2",
+		"amis-formula": "^3.2.0",
 		"amis-ui": "^2.0.2",
 		"ant-design-vue": "^3.2.10",
 		"axios": "^0.27.2",
